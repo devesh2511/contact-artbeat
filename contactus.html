@@ -555,6 +555,104 @@ h6 {
   font-weight: 300;
   display: inline-block;
 }
+
+.contact__form h3 {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+.contact__form form input {
+  height: 50px;
+  width: 60%;
+  border: 1px solid rgba(225, 225, 225, 0.5);
+  background: transparent;
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 20px;
+  font-weight: 300;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+.contact__form form input:placeholder {
+  color: #ffffff;
+}
+.contact__form form input:focus {
+  border-color: #e1e1e1;
+}
+.contact__form form textarea {
+  height: 110px;
+  width: 60%;
+  border: 1px solid rgba(225, 225, 225, 0.5);
+  background: transparent;
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 20px;
+  font-weight: 300;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+.contact__form form textarea:placeholder {
+  color: #ffffff;
+}
+.contact__form form textarea:focus {
+  border-color: #ffffff;
+}
+
+.primary-btn {
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    padding: 14px 32px 12px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+  }
+  .primary-btn:hover:before {
+    height: 100%;
+    width: 100%;
+  }
+  .primary-btn:hover:after {
+    height: 100%;
+    width: 100%;
+  }
+  .primary-btn:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    border-left: 2px solid #00bfe7;
+    border-top: 2px solid #00bfe7;
+    content: "";
+    z-index: -1;
+    -webkit-transition: all, 0.7s;
+    -o-transition: all, 0.7s;
+    transition: all, 0.7s;
+  }
+  .primary-btn:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    border-right: 2px solid #00bfe7;
+    border-bottom: 2px solid #00bfe7;
+    content: "";
+    z-index: -1;
+    -webkit-transition: all, 0.7s;
+    -o-transition: all, 0.7s;
+    transition: all, 0.7s;
+  }
 .section-1 {
         background: url(https://image.freepik.com/free-vector/beautiful-purple-nature-landscape-with-mountains_1302-6317.jpg) no-repeat center center/cover;
         /* height: 90vh; */
@@ -783,11 +881,23 @@ h6 {
   }
 </style>
 <p style="color:white;" stretch>If you have general questions about your account or how to contact customer support for assistance, please
-    contact by email at <a href="mailto:hello@artbeat.tech" class="primary-btn">hello@artbeat.tech</a> . For questions specifically about this Privacy Policy, or our use of
+    contact by email at <a href="mailto:hello@artbeat.tech">hello@artbeat.tech</a> . For questions specifically about this Privacy Policy, or our use of
     personal information, cookies, or similar technologies, you may email us at 
-    <a href="mailto:hello@artbeat.tech" class="primary-btn">hello@artbeat.tech</a> .
+    <a href="mailto:hello@artbeat.tech">hello@artbeat.tech</a> .
     Please note that if you contact us to assist you, we may need to authenticate your identity before fulfilling your
     requests for your safety and ours.</p>
+     <div class="contact__form">
+        <h3>Get in touch</h3>
+        <form action="mailto:hello@artbeat.tech">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Website">
+        <textarea placeholder="Message"></textarea>
+        <hr> 
+        <a href="mailto:hello@artbeat.tech" class="primary-btn">Send Message</a>
+        </form>
+        </div>
+    </div>    
 </div>
 </div>
 </div>
