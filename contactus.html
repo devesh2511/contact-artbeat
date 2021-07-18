@@ -1,239 +1,505 @@
 <!DOCTYPE html>
-<html lang="zxx">
-<head>
-	<meta charset="UTF-8">
-	<meta name="description" content="Videograph Template">
-	<meta name="keywords" content="Videograph, unica, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Videograph</title>
-	<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet"
-		href="css/A.bootstrap.min.css+font-awesome.min.css+elegant-icons.css+owl.carousel.min.css+magnific-popup.css+slicknav.min.css+style.css,Mcc.TVZdRHNonf.css.pagespeed.cf.M6AqxAN_be.css"
-		type="text/css" />
-</head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-	integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-	integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-	integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Play:wght@400&display=swap" rel="stylesheet">
-<!-- Favicon -->
-<link rel="icon" href="...">
-<!-- Font Awesome Icons -->
-<script src="https://kit.fontawesome.com/dc589b1f32.js" crossorigin="anonymous"></script>
-<body>
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-	<style>
-		@font-face {
-			font-family: "FontAwesome";
-			src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
-			src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),
-				url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),
-				url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),
-				url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),
-				url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
-			font-weight: normal;
-			font-style: normal;
-		}
-		@font-face {
-			font-family: "ElegantIcons";
-			src: url(../fonts/ElegantIcons.eot);
-			src: url(../fonts/ElegantIcons.eot?#iefix) format("embedded-opentype"),
-				url(../fonts/ElegantIcons.woff) format("woff"),
-				url(../fonts/ElegantIcons.ttf) format("truetype"),
-				url(../fonts/ElegantIcons.svg#ElegantIcons) format("svg");
-			font-weight: normal;
-			font-style: normal;
-		}
-		:root {
-			--blue: #007bff;
-			--indigo: #6610f2;
-			--purple: #6f42c1;
-			--pink: #e83e8c;
-			--red: #dc3545;
-			--orange: #fd7e14;
-			--yellow: #ffc107;
-			--green: #28a745;
-			--teal: #20c997;
-			--cyan: #17a2b8;
-			--white: #fff;
-			--gray: #6c757d;
-			--gray-dark: #343a40;
-			--primary: #007bff;
-			--secondary: #6c757d;
-			--success: #28a745;
-			--info: #17a2b8;
-			--warning: #ffc107;
-			--danger: #dc3545;
-			--light: #f8f9fa;
-			--dark: #343a40;
-			--breakpoint-xs: 0;
-			--breakpoint-sm: 576px;
-			--breakpoint-md: 768px;
-			--breakpoint-lg: 992px;
-			--breakpoint-xl: 1200px;
-			--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
-				Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-				"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-			--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-				"Liberation Mono", "Courier New", monospace;
-		}
-		::after,
-		::before {
-			box-sizing: border-box;
-		}
-		html {
-			font-family: sans-serif;
-			line-height: 1.15;
-			-webkit-text-size-adjust: 100%;
-			-webkit-tap-highlight-color: transparent;
-		}
-		figcaption,
-		figure,
-		footer,
-		main,
-		nav,
-		section {
-			display: block;
-		}
-		body {
-			margin: 0;
-			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-				"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-				"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-			font-size: 1rem;
-			font-weight: 400;
-			line-height: 1.5;
-			color: #212529;
-			text-align: left;
-			background-color: #fff;
-		}
-		[tabindex="-1"]:focus:not(:focus-visible) {
-			outline: 0 !important;
-		}
-		hr {
-			box-sizing: content-box;
-			height: 0;
-			overflow: visible;
-		}
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
-			margin-top: 0;
-			margin-bottom: 0.5rem;
-		}
-		p {
-			margin-top: 0;
-			margin-bottom: 1rem;
-		}
-		ol,
-		ul {
-			margin-top: 0;
-			margin-bottom: 1rem;
-		}
-		ol ol,
-		ol ul,
-		ul ol,
-		ul ul {
-			margin-bottom: 0;
-		}
-		dt {
-			font-weight: 700;
-		}
-		b,
-		strong {
-			font-weight: bolder;
-		}
-		small {
-			font-size: 80%;
-		}
-		sub,
-		sup {
-			position: relative;
-			font-size: 75%;
-			line-height: 0;
-			vertical-align: baseline;
-		}
-		sub {
-			bottom: -0.25em;
-		}
-		sup {
-			top: -0.5em;
-		}
-		a {
-			color: #007bff;
-			text-decoration: none;
-			background-color: transparent;
-		}
-		a:hover {
-			color: #0056b3;
-			text-decoration: underline;
-		}
-		a:not([href]) {
-			color: inherit;
-			text-decoration: none;
-		}
-		a:not([href]):hover {
-			color: inherit;
-			text-decoration: none;
-		}
-		code,
-		pre {
-			font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-				"Courier New", monospace;
-			font-size: 1em;
-		}
-		pre {
-			margin-top: 0;
-			margin-bottom: 1rem;
-			overflow: auto;
-			-ms-overflow-style: scrollbar;
-		}
-		figure {
-			margin: 0 0 1rem;
-		}
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <!-- section3 slider -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Play:wght@400&display=swap"
+            rel="stylesheet">
+        <!-- Favicon -->
+        <link rel="icon" href="...">
+         <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/dc589b1f32.js" crossorigin="anonymous"></script>
+        <!-- Footer -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <title>Artbeat</title>
+    </head>
+    <style> 
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Play&display=swap');
+        /* navbar */
+        body {
+        color: white;
+        overflow-x: hidden;
+    }
 
-		img {
-			vertical-align: middle;
-			border-style: none;
+    .josefin {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .play {
+        font-family: 'Play', sans-serif;
+    }
+
+    .section-1 {
+        background: url(img/breadcrumb-bg.jpg.webp) no-repeat center center/cover;
+        /* height: 90vh; */
+    }
+
+    .navbar-collapse {
+        width: 80%;
+    }
+
+    .menuNavbar {
+        position: absolute;
+        width: 75%;
+        /* padding:auto 2rem;  */
+        top: 10;
+        z-index: 10;
+        float: left;
+        margin: 0;
+        overflow: hidden;
+    }
+    .navbar:nth-child(1) {
+        margin-left: 12.5% !important;
+        margin-right: 12.5% !important;
+    }
+    .navbar:nth-child(2) {
+        border: 2.5px solid white;
+        margin-right: 12.5% !important;
+        margin-left: 12.5% !important;
+    }
+    .filler {
+        width: 20%;
+    }
+    .navbar-icons {
+        display: flex;
+    }
+    .navLink {
+        position: relative;
+        font-size: 1.15rem;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    a.navLink:hover {
+        color: #ffffff !important;
+        text-decoration: none;
+    }
+    .navLink::before {
+        bottom: 0px;
+        left: 0;
+        transition: 150ms;
+        height: 2px;
+        content: "";
+        position: absolute;
+        background-color: #00bfe7;
+    }
+    .navLink-ltr::before {
+        width: 100%;
+        bottom: -15px;
+        opacity: 0;
+    }
+    .navLink-ltr:hover::before {
+        bottom: -8px;
+        width: 100%;
+        opacity: 1;
+    }
+    .menuNavbar {
+        background-color: #4c4c4ccd;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0.05rem
+    }
+    .navItem {
+        text-decoration: none;
+        color: white;
+    }
+    .navItem:hover {
+        background-color: #e2e0e0;
+        color: black !important;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    @media only screen and (max-width: 1400px) {
+
+        /* navbar */
+        .navbar-icons {
+            visibility: hidden;
+        }
+    }
+    @media only screen and (max-width: 1200px) {
+        /* navbar */
+        .nav-item {
+            display: none !important;
+        }
+
+        .navbar-nav {
+            width: auto;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        /* navbar */
+        .navbar:nth-child(1) {
+            margin-left: 2rem !important;
+            margin-right: 2rem !important;
+        }
+        .navbar:nth-child(2) {
+            margin-right: 2rem !important;
+            margin-left: 2rem !important;
+        }
+        .navLink-ltr::before {
+            width: 0%;
+            bottom: -5px;
+            opacity: 0;
+        }
+        .navLink-ltr:hover::before {
+            bottom: 0px;
+            width: 100%;
+            opacity: 1;
+        }
+        .navbar-icons {
+            display: none;
+        }
+        .menuNavbar {
+            position: absolute;
+            width: 92%;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .menuNavbar {
+            position: absolute;
+            width:85%;
+        }
+    }
+    @media only screen and (max-width: 360px) {
+        .menuNavbar {
+            position: absolute;
+            width:80%;
+        }
+    }
+    .breadcrumb-option {
+    padding-top: 180px;
+}
+.spad {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.breadcrumb__text h2 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+a {
+    color: #b7f5ff;
+    text-decoration: none;
+    background-color: transparent;
+}
+/* career */
+.career{
+    padding-left: 187px;
+    padding-right: 187px;
+    padding-top: 30px;
+}
+.career,h3{
+    font-size: 22px;
+}
+.career,p{
+    font-size: 20px;
+}
+.career_cont{
+    background-color:#100028 ;
+}
+@media only screen and (max-width: 1400px) {
+    .career{
+        padding-right: 187px;
+        padding-left: 187px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .career{
+        padding-right: 147px;
+        padding-left: 147px;
+    }
+    }
+@media only screen and (max-width: 992px) {
+    .career{
+        padding-right: 107px;
+        padding-left: 107px;
+    }
+   
+}
+@media only screen and (max-width: 768px) {
+    .career{
+        padding-right: 87px;
+        padding-left: 87px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .career{
+        font-size: 17px;
+        padding-right: 37px;
+        padding-left: 37px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .career{
+        font-size: 16px;
+        padding-right: 17px;
+        padding-left: 17px;
+    }
+}
+.section{
+    list-style: none;
+}
+.mail,p{
+    font-size: 18px;
+}
+/* footer */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer_container {
+  color: white;
+  background-color: #0a0119;
+  padding: 3rem 6rem 1rem 6rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-row-gap: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.column1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.column2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.column3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.column4 {
+  grid-area: 1 / 4 / 2 / 5;
+  margin-left: 4rem;
+}
+.footer .column1 h1,
+.footer .column2 h1,
+.footer .column3 h1 {
+  font-family: "Play", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.footer .column1 ul li,
+.footer .column2 ul li,
+.footer .column3 p {
+  font-size: 1rem;
+  list-style: none;
+  color: #adadad;
+  margin-bottom: 15px;
+}
+.footer .column1 h1,
+.footer .column2 h1,
+.footer .column3 h1 {
+  margin-bottom: 30px;
+}
+.footer .column1 ul li a,
+.footer .column2 ul li a {
+  color: #adadad;
+  text-decoration: none;
+}
+.footer .column4 ul {
+  display: flex;
+}
+.footer .column4 ul li {
+  list-style: none;
+}
+.footer .column4 img {
+  margin-bottom: 20px;
+}
+.footer .column4 ul li a {
+  display: block;
+  font-size: 15px;
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  line-height: 44px;
+  text-align: center;
+  margin-right: 10px;
+}
+.footer ul {
+  padding-left: 0rem;
+}
+/* Footer Last */
+.footer_end {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+}
+.footer_end p {
+  font-size: 16px;
+  color: #adadad;
+  line-height: 26px;
+  margin: 20px 0 5px 0;
+  text-align: center !important;
+}
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+  .footer_container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .column4 {
+    margin-left: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer_container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 30px;
+  }
+  .column1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .column2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .column3 {
+    grid-area: 2 / 1 / 3 / 2;
+    padding-right: 50px;
+  }
+  .column4 {
+    grid-area: 2 / 2 / 3 / 3;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .column1,
+  .column3 {
+    margin-right: 45px;
+    width: 100%;
+  }
+  .footer_container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .footer .column4 ul li a {
+    height: 30px;
+    width: 30px;
+    line-height: 35px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+  }
+  .column1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .column2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .column3 {
+    grid-area: 3 / 1 / 4 / 2;
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+  }
+  .column4 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .footer .column4 ul li a {
+    height: 40px;
+    width: 40px;
+    line-height: 44px;
+  }
+}
+
+.contact__form h3 {
+			color: #fff;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin-bottom: 35px;
 		}
-		table {
-			border-collapse: collapse;
+		.contact__form form input {
+			height: 50px;
+			width: 100%;
+			border: 1px solid rgba(225, 225, 225, 0.5);
+			background: transparent;
+			font-size: 20px;
+			color: #adadad;
+			padding-left: 20px;
+			font-weight: 300;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			-webkit-transition: all, 0.3s;
+			-o-transition: all, 0.3s;
+			transition: all, 0.3s;
 		}
-		caption {
-			padding-top: 0.75rem;
-			padding-bottom: 0.75rem;
-			color: #6c757d;
-			text-align: left;
-			caption-side: bottom;
+		.contact__form form input:placeholder {
+			color: #adadad;
 		}
-		th {
-			text-align: inherit;
+		.contact__form form input:focus {
+			border-color: #e1e1e1;
 		}
-		label {
-			display: inline-block;
-			margin-bottom: 0.5rem;
+		.contact__form form textarea {
+			height: 110px;
+			width: 100%;
+			border: 1px solid rgba(225, 225, 225, 0.5);
+			background: transparent;
+			font-size: 20px;
+			color: #adadad;
+			padding-top: 12px;
+			padding-left: 20px;
+			font-weight: 300;
+			margin-bottom: 14px;
+			resize: none;
+			-webkit-transition: all, 0.3s;
+			-o-transition: all, 0.3s;
+			transition: all, 0.3s;
+		}
+		.contact__form form textarea:placeholder {
+			color: #adadad;
+		}
+		.contact__form form textarea:focus {
+			border-color: #e1e1e1;
 		}
 		.coverButton {
 			text-decoration: none;
@@ -321,1071 +587,82 @@
 			padding: 0;
 			border-style: none;
 		}
-		input[type="checkbox"],
-		input[type="radio"] {
-			box-sizing: border-box;
-			padding: 0;
-		}
-		textarea {
-			overflow: auto;
-			resize: vertical;
-		}
-		fieldset {
-			min-width: 0;
-			padding: 0;
-			margin: 0;
-			border: 0;
-		}
-		legend {
-			display: block;
-			width: 100%;
-			max-width: 100%;
-			padding: 0;
-			margin-bottom: 0.5rem;
-			font-size: 2.0rem;
-			line-height: inherit;
-			color: inherit;
-			white-space: normal;
-		}
-		progress {
-			vertical-align: baseline;
-		}
-		[type="number"]::-webkit-inner-spin-button,
-		[type="number"]::-webkit-outer-spin-button {
-			height: auto;
-		}
-		output {
-			display: inline-block;
-		}
-		template {
-			display: none;
-		}
-		[hidden] {
-			display: none !important;
-		}
-		.h1,
-		.h2,
-		.h3,
-		.h4,
-		.h5,
-		.h6,
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
-			margin-bottom: 0.5rem;
-			font-weight: 500;
-			line-height: 1.2;
-		}
-		.h1,
-		h1 {
-			font-size: 2.5rem;
-		}
-		.h2,
-		h2 {
-			font-size: 2rem;
-		}
-		.h3,
-		h3 {
-			font-size: 1.75rem;
-		}
-		.h4,
-		h4 {
-			font-size: 1.5rem;
-		}
-		.h5,
-		h5 {
-			font-size: 1.25rem;
-		}
-		.h6,
-		h6 {
-			font-size: 1rem;
-		}
-		hr {
-			margin-top: 1rem;
-			margin-bottom: 1rem;
-			border: 0;
-			border-top: 1px solid rgba(0, 0, 0, 0.1);
-		}
-		.small,
-		small {
-			font-size: 80%;
-			font-weight: 400;
-		}
-		.figure {
-			display: inline-block;
-		}
-		code {
-			font-size: 87.5%;
-			color: #e83e8c;
-			word-wrap: break-word;
-		}
-		a>code {
-			color: inherit;
-		}
-
-		pre {
-			display: block;
-			font-size: 87.5%;
-			color: #212529;
-		}
-
-		pre code {
-			font-size: inherit;
-			color: inherit;
-			word-break: normal;
-		}
-
-		.container {
-			width: 100%;
-			padding-right: 15px;
-			padding-left: 15px;
-			margin-right: auto;
-			margin-left: auto;
-		}
-
-		@-webkit-keyframes spinner-border {
-			to {
-				-webkit-transform: rotate(360deg);
-				transform: rotate(360deg);
-			}
-		}
-
-		@keyframes spinner-border {
-			to {
-				-webkit-transform: rotate(360deg);
-				transform: rotate(360deg);
-			}
-		}
-
-		@keyframes spinner-grow {
-			0% {
-				-webkit-transform: scale(0);
-				transform: scale(0);
-			}
-
-			50% {
-				opacity: 1;
-				-webkit-transform: none;
-				transform: none;
-			}
-		}
-
-		.border {
-			border: 1px solid #dee2e6 !important;
-		}
-
-		.d-flex {
-			display: -ms-flexbox !important;
-			display: flex !important;
-		}
-
-		.justify-content-center {
-			-ms-flex-pack: center !important;
-			justify-content: center !important;
-		}
-
-		.position-static {
-			position: static !important;
-		}
-
-		.fixed-top {
-			position: fixed;
-			top: 0;
-			right: 0;
-			left: 0;
-			z-index: 1030;
-		}
-
-		.fixed-bottom {
-			position: fixed;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			z-index: 1030;
-		}
-
-		@supports ((position: -webkit-sticky) or (position: sticky)) {
-			.sticky-top {
-				position: -webkit-sticky;
-				position: sticky;
-				top: 0;
-				z-index: 1020;
-			}
-		}
-		.p-0 {
-			padding: 0 !important;
-		}
-		.p-1 {
-			padding: 0.25rem !important;
-		}
-		.text-center {
-			text-align: center !important;
-		}
-		.visible {
-			visibility: visible !important;
-		}
-		@media print {
-			*,
-			::after,
-			::before {
-				text-shadow: none !important;
-				box-shadow: none !important;
-			}
-			a:not(.btn) {
-				text-decoration: underline;
-			}
-			pre {
-				white-space: pre-wrap !important;
-			}
-			pre {
-				border: 1px solid #adb5bd;
-				page-break-inside: avoid;
-			}
-			thead {
-				display: table-header-group;
-			}
-			img,
-			tr {
-				page-break-inside: avoid;
-			}
-			h2,
-			h3,
-			p {
-				orphans: 3;
-				widows: 3;
-			}
-			h2,
-			h3 {
-				page-break-after: avoid;
-			}
-			@page {
-				size: a3;
-			}
-			body {
-				min-width: 992px !important;
-			}
-			.container {
-				min-width: 992px !important;
-			}
-			.navbar {
-				display: none;
-			}
-			.table {
-				border-collapse: collapse !important;
-			}
-			.table td,
-			.table th {
-				background-color: #fff !important;
-			}
-		}
-		.fa {
-			display: inline-block;
-			font: 14px/1 FontAwesome;
-			font-size: inherit;
-			text-rendering: auto;
-			-webkit-font-smoothing: antialiased;
-			-moz-osx-font-smoothing: grayscale;
-		}
-		@keyframes fa-spin {
-			0% {
-				-webkit-transform: rotate(0deg);
-				transform: rotate(0deg);
-			}
-
-			100% {
-				-webkit-transform: rotate(359deg);
-				transform: rotate(359deg);
-			}
-		}
-		.fa-tag:before {
-			content: "\f02b";
-		}
-		.fa-map-marker:before {
-			content: "\f041";
-		}
-		.fa-play:before {
-			content: "\f04b";
-		}
-		.fa-heart-o:before {
-			content: "\f08a";
-		}
-		.fa-phone:before {
-			content: "\f095";
-		}
-		.fa-twitter:before {
-			content: "\f099";
-		}
-		.fa-facebook:before {
-			content: "\f09a";
-		}
-		.fa-angle-left:before {
-			content: "\f104";
-		}
-		.fa-angle-right:before {
-			content: "\f105";
-		}
-		.fa-quote-right:before {
-			content: "\f10e";
-		}
-		.fa-youtube-play:before {
-			content: "\f16a";
-		}
-		.fa-instagram:before {
-			content: "\f16d";
-		}
-		.fa-dribbble:before {
-			content: "\f17d";
-		}
-		.fa-send:before {
-			content: "\f1d8";
-		}
-		html,
-		body {
-			height: 100%;
-			font-family: "Josefin Sans", sans-serif;
-			-webkit-font-smoothing: antialiased;
-		}
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
-			margin: 0;
-			color: rgb(255, 255, 255);
-			font-weight: 400;
-			font-family: "Play", sans-serif;
-		}
-		h1 {
-			font-size: 70px;
-		}
-		h2 {
-			font-size: 36px;
-		}
-		h3 {
-			font-size: 30px;
-		}
-		h4 {
-			font-size: 24px;
-		}
-		h5 {
-			font-size: 18px;
-		}
-		h6 {
-			font-size: 16px;
-		}
-		p {
-			font-size: 16px;
-			font-family: "Josefin Sans", sans-serif;
-			color: #adadad;
-			font-weight: 400;
-			line-height: 26px;
-			margin: 0 0 15px 0;
-		}
-		img {
-			max-width: 100%;
-		}
-		input:focus,
-		select:focus,
-		button:focus,
-		textarea:focus {
-			outline: none;
-		}
-		a:hover,
-		a:focus {
-			text-decoration: none;
-			outline: none;
-			color: #fff;
-		}
-		ul,
-		ol {
-			padding: 0;
-			margin: 0;
-		}
-		.section-title {
-			margin-bottom: 50px;
-		}
-		.section-title.center-title {
-			text-align: center;
-		}
-		.section-title.center-title h2:after {
-			right: 0;
-			margin: 0 auto;
-		}
-		.section-title span {
-			color: #fff;
-			display: block;
-			font-size: 16px;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-			margin-bottom: 6px;
-		}
-		.section-title h2 {
-			color: #fff;
-			font-weight: 700;
-			text-transform: uppercase;
-			position: relative;
-			padding-bottom: 25px;
-		}
-		.section-title h2:after {
-			position: absolute;
-			left: 0;
-			bottom: 0;
-			height: 5px;
-			width: 70px;
-			background: #00bfe7;
-			content: "";
-		}
-		.set-bg {
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: top center;
-		}
-		.spad {
-			padding-top: 100px;
-			padding-bottom: 100px;
-		}
-		.footer_container {
-			color: white;
-			background-color: #0a0119;
-			padding: 3rem 6rem 1rem 6rem;
-			font-family: "Josefin Sans", sans-serif;
-		}
-		.footer {
-			display: grid;
-			grid-template-columns: repeat(4, 1fr);
-			grid-template-rows: 1fr;
-			grid-row-gap: 0px;
-			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-		}
-		.column1 {
-			grid-area: 1 / 1 / 2 / 2;
-		}
-		.column2 {
-			grid-area: 1 / 2 / 2 / 3;
-		}
-		.column3 {
-			grid-area: 1 / 3 / 2 / 4;
-		}
-		.column4 {
-			grid-area: 1 / 4 / 2 / 5;
-			margin-left: 4rem;
-		}
-		.footer .column1 h1,
-		.footer .column2 h1,
-		.footer .column3 h1 {
-			font-family: "Play", sans-serif;
-			font-size: 18px;
-			line-height: 1.2;
-			margin-bottom: 15px;
-			font-weight: bold;
-		}
-		.footer .column1 ul li,
-		.footer .column2 ul li,
-		.footer .column3 p {
-			font-size: 1rem;
-			list-style: none;
-			color: #adadad;
-			margin-bottom: 15px;
-		}
-		.footer .column1 ul li a,
-		.footer .column2 ul li a {
-			color: #adadad;
-			text-decoration: none;
-		}
-		.footer .column4 ul {
-			display: flex;
-		}
-		.footer .column4 ul li {
-			list-style: none;
-		}
-		.footer .column4 img {
-			margin-bottom: 20px;
-		}
-		.footer .column4 ul li a {
-			display: block;
-			font-size: 15px;
-			color: #ffffff;
-			height: 40px;
-			width: 40px;
-			background: rgba(255, 255, 255, 0.1);
-			border-radius: 50%;
-			line-height: 44px;
-			text-align: center;
-			margin-right: 10px;
-		}
-
-		/* Footer Last */
-		.footer_end {
-			border-top: 1px solid rgba(255, 255, 255, 0.1);
-			padding: 20px 0;
-		}
-		.footer_end p {
-			font-size: 16px;
-			color: #adadad;
-			line-height: 26px;
-			margin: 20px 0 5px 0;
-			text-align: center !important;
-		}
-		@media only screen and (max-width: 1400px) {}
-		@media only screen and (max-width: 1200px) {}
-		@media only screen and (max-width: 992px) {
-			.footer_container {
-				padding-left: 2rem;
-				padding-right: 2rem;
-			}
-			.column4 {
-				margin-left: 2rem;
-			}
-		}
-		@media only screen and (max-width: 768px) {
-			.footer_container {
-				padding-left: 2rem;
-				padding-right: 2rem;
-			}
-			.footer {
-				display: grid;
-				grid-template-columns: repeat(2, 1fr);
-				grid-template-rows: repeat(2, 1fr);
-				grid-column-gap: 0px;
-				grid-row-gap: 30px;
-			}
-			.column1 {
-				grid-area: 1 / 1 / 2 / 2;
-			}
-			.column2 {
-				grid-area: 1 / 2 / 2 / 3;
-			}
-			.column3 {
-				grid-area: 2 / 1 / 3 / 2;
-				padding-right: 50px;
-			}
-			.column4 {
-				grid-area: 2 / 2 / 3 / 3;
-				margin-left: 0;
-			}
-		}
-		@media only screen and (max-width: 576px) {
-			.column1,
-			.column3 {
-				margin-right: 45px;
-				width: 100%;
-			}
-			.footer_container {
-				padding-left: 2rem;
-				padding-right: 2rem;
-			}
-			.footer .column4 ul li a {
-				height: 30px;
-				width: 30px;
-				line-height: 35px;
-			}
-		}
-		@media only screen and (max-width: 420px) {
-			.footer {
-				display: grid;
-				grid-template-columns: 1fr;
-				grid-template-rows: repeat(4, 1fr);
-				grid-column-gap: 0px;
-				grid-row-gap: 20px;
-			}
-			.column1 {
-				grid-area: 1 / 1 / 2 / 2;
-			}
-
-			.column2 {
-				grid-area: 2 / 1 / 3 / 2;
-			}
-			.column3 {
-				grid-area: 3 / 1 / 4 / 2;
-				width: 100%;
-				padding-right: 0;
-				margin-right: 0;
-				padding-bottom: 0;
-			}
-			.column4 {
-				grid-area: 4 / 1 / 5 / 2;
-			}
-			.footer .column4 ul li a {
-				height: 40px;
-				width: 40px;
-				line-height: 44px;
-			}
-		}
-		@media only screen and (max-width: 360px) {}
-		.breadcrumb-option {
-			padding-top: 180px;
-		}
-		.breadcrumb__text h2 {
-			color: #fff;
-			font-size: 50px;
-			font-weight: 700;
-			margin-bottom: 12px;
-		}
-		.breadcrumb__links a {
-			font-size: 26px;
-			color: #fff;
-			font-weight: 300;
-			display: inline-block;
-			margin-right: 5px;
-			position: relative;
-		}
-		.breadcrumb__links a:after {
-			position: absolute;
-			right: -22px;
-			top: -3px;
-			content: "";
-			color: #adadad;
-			font-size: 20px;
-		}
-		.breadcrumb__links span {
-			font-size: 26px;
-			color: #ffe0e0;
-			font-weight: 300;
-			display: inline-block;
-		}
-		.input__list {
-			margin-right: -20px;
-			overflow: hidden;
-		}
-		.input__list input {
-			height: 50px;
-			width: calc(33.33% - 20px);
-			float: left;
-			border: 1px solid rgba(225, 225, 225, 0.5);
-			background: transparent;
-			font-size: 16px;
-			color: #adadad;
-			padding-left: 20px;
-			font-weight: 300;
-			margin-right: 20px;
-			margin-bottom: 20px;
-		}
-		.input__list input:placeholder {
-			color: #adadad;
-		}
-		.contact-widget {
-			background: #100028;
-			padding-bottom: 70px;
-		}
-		.contact__widget__item {
-			margin-bottom: 30px;
-		}
-		.contact__widget__item__icon {
-			height: 70px;
-			width: 70px;
-			border: 1px solid rgba(225, 225, 225, 0.5);
-			line-height: 80px;
-			text-align: center;
-			border-radius: 50%;
-			float: left;
-			margin-right: 30px;
-		}
-		.contact__widget__item__icon i {
-			font-size: 30px;
-			color: #fff;
-		}
-		.contact__widget__item__text {
-			overflow: hidden;
-			padding-top: 7px;
-		}
-		.contact__widget__item__text h4 {
-			font-size: 22px;
-			color: #fff;
-			font-weight: 700;
-			margin-bottom: 10px;
-		}
-		.contact__widget__item__text p {
-			margin-bottom: 0;
-		}
-		.contact {
-			background: #100028;
-			padding-top: 0;
-			overflow: hidden;
-		}
-		.contact__map {
-			height: 450px;
-		}
-		.contact__map iframe {
-			width: 100%;
-		}
-		.contact__form h3 {
-			color: #fff;
-			font-weight: 700;
-			text-transform: uppercase;
-			margin-bottom: 35px;
-		}
-		.contact__form form input {
-			height: 50px;
-			width: 100%;
-			border: 1px solid rgba(225, 225, 225, 0.5);
-			background: transparent;
-			font-size: 20px;
-			color: #adadad;
-			padding-left: 20px;
-			font-weight: 300;
-			margin-right: 20px;
-			margin-bottom: 20px;
-			-webkit-transition: all, 0.3s;
-			-o-transition: all, 0.3s;
-			transition: all, 0.3s;
-		}
-		.contact__form form input:placeholder {
-			color: #adadad;
-		}
-		.contact__form form input:focus {
-			border-color: #e1e1e1;
-		}
-		.contact__form form textarea {
-			height: 110px;
-			width: 100%;
-			border: 1px solid rgba(225, 225, 225, 0.5);
-			background: transparent;
-			font-size: 20px;
-			color: #adadad;
-			padding-top: 12px;
-			padding-left: 20px;
-			font-weight: 300;
-			margin-bottom: 14px;
-			resize: none;
-			-webkit-transition: all, 0.3s;
-			-o-transition: all, 0.3s;
-			transition: all, 0.3s;
-		}
-		.contact__form form textarea:placeholder {
-			color: #adadad;
-		}
-		.contact__form form textarea:focus {
-			border-color: #e1e1e1;
-		}
-		@media only screen and (min-width: 1200px) {
-			.container {
-				max-width: 1170px;
-			}
-		}
-		@media only screen and (max-width: 767px) {
-			.services__title {
-				margin-bottom: 50px;
-			}
-			.team__item.team__item--second {
-				margin-top: 0;
-			}
-			.team__item.team__item--third {
-				margin-top: 0;
-			}
-			.team__item.team__item--four {
-				margin-top: 0;
-			}
-			.team__btn {
-				position: relative;
-				padding-top: 50px;
-			}
-			.about__pic {
-				margin-bottom: 50px;
-			}
-			.about__text {
-				padding-left: 0;
-			}
-			.hero__slider.owl-carousel .owl-dots {
-				max-width: auto;
-				padding: 0 15px;
-			}
-			.hero__text h2 {
-				font-size: 40px;
-				line-height: 40px;
-			}
-			.grid-sizer {
-				width: calc(50% - 10px);
-			}
-			.work__item.wide__item {
-				width: calc(50% - 10px);
-			}
-			.work__item {
-				width: calc(50% - 10px);
-			}
-			.work__item.large__item {
-				width: calc(50% - 10px);
-			}
-			.footer__top__social {
-				text-align: left;
-				padding-top: 30px;
-			}
-			.portfolio__filter li {
-				margin-bottom: 10px;
-			}
-			.input__list {
-				margin-right: 0;
-			}
-			.input__list input {
-				width: 100%;
-				margin-right: 0;
-			}
-			.contact__map {
-				margin-bottom: 40px;
-			}
-			.team__item {
-				margin-bottom: 20px;
-			}
-			.team .p-0 {
-				padding: 0 15px !important;
-			}
-			.about__pic__item {
-				margin-right: 0;
-			}
-			.blog__details__quote {
-				padding: 30px 45px 35px 35px;
-			}
-		}
-		@media only screen and (max-width: 479px) {
-			.hero__text h2 {
-				font-size: 30px;
-				line-height: 40px;
-			}
-			.grid-sizer {
-				width: 100%;
-			}
-			.work__item.wide__item {
-				width: 100%;
-			}
-			.work__item {
-				width: 100%;
-				margin-right: 0;
-			}
-			.work__item.large__item {
-				width: 100%;
-			}
-			.work__gallery {
-				margin-right: 0;
-			}
-			.pagination__option .arrow__pagination.left__arrow {
-				margin-right: 15px;
-			}
-			.pagination__option .arrow__pagination.right__arrow {
-				margin-left: 10px;
-			}
-			.blog__details__quote {
-				padding: 30px 40px 35px 35px;
-			}
-		}
-		.section-1 {
-			background: url(img/breadcrumb-bg.jpg) no-repeat center center/cover;
-			/* height: 90vh; */
-		}
-		.navbar-collapse {
-			width: 80%;
-		}
-		.menuNavbar {
-			position: absolute;
-			width: 75%;
-			/* padding:auto 2rem;  */
-			top: 10;
-			z-index: 10;
-			float: left;
-			margin: 0;
-			overflow: hidden;
-		}
-		.navbar:nth-child(1) {
-			margin-left: 12.5% !important;
-			margin-right: 12.5% !important;
-		}
-		.navbar:nth-child(2) {
-			border: 0.5px solid white;
-			margin-right: 12.5% !important;
-			margin-left: 12.5% !important;
-		}
-		li {
-			list-style: none;
-		}
-		.filler {
-			width: 20%;
-		}
-		.navbar-icons {
-			display: flex;
-		}
-		.navLink {
-			position: relative;
-			font-size: 1.15rem;
-			color: #ffffff;
-			text-decoration: none;
-		}
-		a.navLink:hover {
-			color: #ffffff !important;
-			text-decoration: none;
-		}
-		.navLink::before {
-			bottom: 0px;
-			left: 0;
-			transition: 150ms;
-			height: 2px;
-			content: "";
-			position: absolute;
-			background-color: #00bfe7;
-		}
-		.navLink-ltr::before {
-			width: 100%;
-			bottom: -15px;
-			opacity: 0;
-		}
-		.navLink-ltr:hover::before {
-			bottom: -8px;
-			width: 100%;
-			opacity: 1;
-		}
-		.menuNavbar {
-			background-color: #4c4c4ccd;
-		}
-		.navbar-toggler:focus {
-			box-shadow: 0 0 0 0.05rem
-		}
-		.navItem {
-			text-decoration: none;
-			color: white;
-		}
-		.navItem:hover {
-			background-color: #e2e0e0;
-			color: black !important;
-			border-radius: 5px;
-			text-decoration: none;
-		}
-		@media only screen and (max-width: 1400px) {
-			/* navbar */
-			.navbar-icons {
-				visibility: hidden;
-			}
-		}
-		@media only screen and (max-width: 1200px) {
-			/* navbar */
-			.nav-item {
-				display: none !important;
-			}
-			.navbar-nav {
-				width: auto;
-			}
-		}
-		@media only screen and (max-width: 992px) {
-			/* navbar */
-			.navbar:nth-child(1) {
-				margin-left: 2rem !important;
-				margin-right: 2rem !important;
-			}
-			.navbar:nth-child(2) {
-				margin-right: 2rem !important;
-				margin-left: 2rem !important;
-			}
-			.navLink-ltr::before {
-				width: 0%;
-				bottom: -5px;
-				opacity: 0;
-			}
-			.navLink-ltr:hover::before {
-				bottom: 0px;
-				width: 100%;
-				opacity: 1;
-			}
-			.navbar-icons {
-				display: none;
-			}
-			.menuNavbar {
-				position: absolute;
-				width: 92%;
-			}
-		}
-		@media only screen and (max-width: 768px) {
-			.menuNavbar {
-				position: absolute;
-				width: 85%;
-			}
-		}
-		@media only screen and (max-width: 360px) {
-			.menuNavbar {
-				position: absolute;
-				width: 80%;
-			}
-		}
-	</style>
-	<!--section-1-->
-	<!-- navbar -->
-	<div class="section-1">
-		<nav class="navbar navbar-expand-xl navbar-dark py-3 play">
-			<div class="container-fluid">
-				<div class="navbarBrand">
-					<img src="data:image/webp;base64,UklGRtYCAABXRUJQVlA4TMkCAAAvpkAHEL/BoG0kR+ZP93q/+ydhkG2k+rudwisM4Q2kbRP/ls87hm3bOJKu33fvP+zXAZzfj4YCcUAEQbAgFgrEg2BDTGwIIQoqgornB9ARnPA/cEA4q4/GLMKO2aj3jGIWszGL0ZgFZNu2rbbN2YYriGJdQ0AKihpDmfz/v9Z7QHIy7uhjRP8duG3jSPK1LbOnzM62L5DMPN+9dIdD97LL5xSvLNcDlHxaLylSWXUw0q0oRpndY0TuZxF6P2BUHuLzusXI3FFkcg2Rz+brOjJ/1Ive+HX+9dWgj8v/rEVnfDn/yw9jhTVFJItB5/z3m8qwYGotUHDJPZBQBXiiUsrVZTCqFNmMiJxvgkLrE+7ra+60L1ThKhgGySDhSLdvSmKCj8zmEShzGJzPv9VGOS8OqJlAEYRtgpRJCqOzkhZKlxjCiSwL8AZAaXJjoze6ZXoJsHfCvhQo8hmAVMqItMyPue15ebUwSoWwKkcNWqCReO5bmzzZhEbfhcszSb+CT++dDTVByiABwA3YnnJiLIlI4UqQAmEsJioZUzMYTIxGg1JRzacrEljyk8iExgS2QFIAfipHC2UmW+vIK3KQ280mwVONpwT0ql2rDI1Hcnu04xC5GFSzUmQNHwCRxvGhUZo9H8rc6kyY+GNMUBEm2Yh434nM4JGvXUNkazRLzcqeL7CK3H4FJB+Fx9DV+0ScrEX2CnvvE3qHDYnjq9gL2xFMbJaOhGpx7vPK0LDsL3xZuZKqGbAH/CiS/Zjz9V6cPMK+ckxja5OIMhrAKcN5Eou3C1ykxUUAcAZKHvXRHJwKzSkjRcNqVso93KgnsSlc7JbHQ1zCRvDoyYYS33AlR6RpoPHKtZfPSrZsB4s+8NNQbiB/2jeQwzKSt+PReVy8G/9wE81Hxf+0B28iWvXWr35Fkcpy86b9etssKV6Z5zev/enUv97kC4pPCAA="
-						alt="" srcset="" class="brandImg">
-				</div>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav justify-content-between mb-2 mb-lg-0 mx-auto">
-						<li class="nav-item mx-3 mx-xl-4">
-							<a class="navLink navLink-ltr" href="/artbeat-entertainment/index.html">Home</a>
-						</li>
-						<li class="nav-item mx-0 mx-xl-4">
-							<a class="navLink navLink-ltr" href="/artbeat-entertainment/about-us/index.html">About</a>
-						</li>
-						<li class="nav-item mx-0 mx-xl-4">
-							<a class="navLink navLink-ltr"
-								href="/artbeat-entertainment/portfolio/index.html">Portfolio</a>
-						</li>
-						<li class="nav-item mx-0 mx-xl-4">
-							<a class="navLink navLink-ltr"
-								href="/artbeat-entertainment/our-services/index.html">Services</a>
-						</li>
-						<li class="nav-item mx-0 mx-xl-4">
-							<a class="navLink navLink-ltr"
-								href="/artbeat-entertainment/contact-us/index.html">Contact</a>
-						</li>
-					</ul>
-					<ul class="navbar-nav justify-content-between">
-						<li class="nav-item mx-2 mx-xxl-2">
-							<a class="navLink" href="#">
-								<ion-icon name="logo-facebook"></ion-icon>
-							</a>
-						</li>
-						<li class="nav-item mx-2 mx-xxl-2">
-							<a class="navLink" href="#">
-								<ion-icon name="logo-twitter"></ion-icon>
-							</a>
-						</li>
-						<li class="nav-item mx-2 mx-xxl-2">
-							<a class="navLink" href="#">
-								<ion-icon name="logo-instagram"></ion-icon>
-							</a>
-						</li>
-						<li class="nav-item mx-2 mx-xxl-2">
-							<a class="navLink" href="#">
-								<ion-icon name="logo-youtube"></ion-icon>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<nav class="navbar navbar-dark py-2 menuNavbar">
-			<button class="navbar-toggler ms-auto mx-1" type="button" data-bs-toggle="collapse"
-				data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-				aria-label="Toggle navigation">Menu<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent1">
-				<ul class="navbar-nav justify-content-between ms-2 me-5 mb-2 mb-lg-0">
-					<a class="navItem px-2 py-2" href="/artbeat-entertainment/index.html">Home</a>
-					<a class="navItem px-2 py-2" href="/artbeat-entertainment/about-us/index.html">About</a>
-					<a class="navItem px-2 py-2" href="/artbeat-entertainment/portfolio/index.html">Portfolio</a>
-					<a class="navItem px-2 py-2" href="/artbeat-entertainment/our-services/index.html">Services</a>
-					<a class="navItem px-2 py-2" href="/artbeat-entertainment/contact-us/index.html">Contact</a>
-				</ul>
-			</div>
-		</nav>
-		<div class="breadcrumb-option spad set-bg">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="breadcrumb__text">
-							<h2>Contact Us</h2>
-							<div class="breadcrumb__links">
-								<a href="#">Home</a>
-								<span>Contact Us</span>
-                <hr>
+</style>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="section-1">
+      <nav class="navbar navbar-expand-xl navbar-dark pt-3 play">
+          <div class="container-fluid">
+              <div class="navbarBrand">
+                  <img src="img/videograph.png"
+                      alt="" srcset="" class="brandImg">
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav justify-content-between mb-2 mb-lg-0 mx-auto">
+                      <li class="nav-item mx-3 mx-xl-4">
+                          <a class="navLink navLink-ltr" href="#">Home</a>
+                      </li>
+                      <li class="nav-item mx-0 mx-xl-4">
+                          <a class="navLink navLink-ltr" href="#">About</a>
+                      </li>
+                      <li class="nav-item mx-0 mx-xl-4">
+                          <a class="navLink navLink-ltr" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item mx-0 mx-xl-4">
+                          <a class="navLink navLink-ltr" href="#">Services</a>
+                      </li>
+                      <li class="nav-item mx-0 mx-xl-4">
+                          <a class="navLink navLink-ltr" href="#">Contact</a>
+                      </li>
+                  </ul>
+                  <ul class="navbar-nav justify-content-between">
+                      <li class="nav-item mx-2 mx-xxl-2">
+                          <a class="navLink" href="#">
+                              <ion-icon name="logo-facebook"></ion-icon>
+                          </a>
+                      </li>
+                      <li class="nav-item mx-2 mx-xxl-2">
+                          <a class="navLink" href="#">
+                              <ion-icon name="logo-twitter"></ion-icon>
+                          </a>
+                      </li>
+                      <li class="nav-item mx-2 mx-xxl-2">
+                          <a class="navLink" href="#">
+                              <ion-icon name="logo-instagram"></ion-icon>
+                          </a>
+                      </li>
+                      <li class="nav-item mx-2 mx-xxl-2">
+                          <a class="navLink" href="#">
+                              <ion-icon name="logo-youtube"></ion-icon>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <nav class="navbar navbar-dark py-2 menuNavbar">
+          <button class="navbar-toggler ms-auto mx-1" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+              aria-label="Toggle navigation">Menu<span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent1">
+              <ul class="navbar-nav justify-content-between ms-2 me-5 mb-2 mb-lg-0">
+                  <a class="navItem px-2 py-2" href="#">Home</a>
+                  <a class="navItem px-2 py-2" href="#">About</a>
+                  <a class="navItem px-2 py-2" href="#">Portfolio</a>
+                  <a class="navItem px-2 py-2" href="#">Services</a>
+                  <a class="navItem px-2 py-2" href="#">Contact</a>
+              </ul>
+          </div>
+      </nav>
+      <div class="breadcrumb-option spad set-bg" data-setbg="img/breadcrumb-bg.jpg" style="background-image: url(&quot;img/breadcrumb-bg.jpg&quot;);">
+          <div class="container">
+          <div class="row">
+          <div class="col-lg-12 text-center">
+          <div class="breadcrumb__text">
+            <h2>Contact Us</h2>
+            <hr>
         <style>p {
                   margin: 0px;
                 }
@@ -1396,99 +673,87 @@
       Please note that if you contact us to assist you, we may need to authenticate your identity before fulfilling your
       requests for yours and our safety.      
      </p>
-     <div class="contact__form">
-      <h3>Get in touch</h3>
-      <form action="mailto:hello@artbeat.tech">
-      <input type="text" placeholder="Name">
-      <input type="text" placeholder="Email">
-      <input type="text" placeholder="Website">
-      <textarea placeholder="Message"></textarea>
-      <hr> 
-      <button type="submit" class="coverButton px-4 py-2">Send Message</button>
-      </form>
-      </div>
-  </div>
-							</div>
-						</div>
-					</div>
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
+          </div>
+          <!-- career part -->
+          <div class="career_cont">
+          <div class="career">
+			<div class="contact__form">
+				<center><h3>Get in touch</h3></center>
+				<form action="mailto:hello@artbeat.tech">
+				<input type="text" placeholder="Name">
+				<input type="text" placeholder="Email">
+				<input type="text" placeholder="Website">
+				<textarea placeholder="Message"></textarea> 
+				<center><button type="submit" class="coverButton px-4 py-2">Send Message</button></center>
+				<hr>
+				</form>
 				</div>
-			</div>
-		</div>
-	</div>
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<!-- Bootstrap JavaScript -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-		crossorigin="anonymous"></script>
-	<!-- Ionicons JavaScript -->
-	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-	<div class="footer_container">
-    <div class="footer">
-      <div class="column1">
-        <ul>
-          <li><a href="/artbeat-entertainment/contact-us/contactus.html">Contact Us</a></li>
-          <li><a href="/artbeat-entertainment/contact-us/cookies.html">Advertisement</a></li>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Report Abuse</a></li>
-        </ul>
-      </div>
-      <div class="column2">
-        <ul>
-          <li><a href="">Career</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Site map</a></li>
-          <li><a href="">Team</a></li>
-        </ul>
-      </div>
-      <div class="column3">
-        <h1>About Us</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut veniam nam libero, nisi ad
-          consequuntur.
-          Deleniti nihil id ex officia!</p>
-      </div>
-      <div class="column4">
-        <img src="#" alt="LOGO">
-        <ul>
-          <li>
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-linkedin-in"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-youtube"></i></a>
-          </li>
-        </ul>
-      </div>
     </div>
-    <div class="footer_end">
-      <p>Copyright © 2021 All rights reserved</p>
-    </div>
-  </div>
-  </div>
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/bootstrap.min.js+jquery.magnific-popup.min.js.pagespeed.jc.rL6BF4KLoS.js"></script><script>eval(mod_pagespeed_67R1_RtUEk);</script>
-  <script>eval(mod_pagespeed_DaJ2Quk3BA);</script>
-  <script src="js/mixitup.min.js"></script>
-  <script src="js/masonry.pkgd.min.js+jquery.slicknav.js+owl.carousel.min.js.pagespeed.jc.UfzFlKHzh9.js"></script><script>eval(mod_pagespeed_B_3wBdv2yQ);</script>
-  <script>eval(mod_pagespeed_6wSHCz6bnD);</script>
-  <script>eval(mod_pagespeed_0dcokU$L5_);</script>
-  <script src="js/main.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-  <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-23581568-13');
-    </script>
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"66a882952944e2bd","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.6.0","si":10}'></script>
+     <!-- footer -->
+     <div class="footer_container">
+        <div class="footer">
+          <div class="column1">
+            <ul>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Advertisement</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Report Abuse</a></li>
+            </ul>
+          </div>
+          <div class="column2">
+            <ul>
+              <li><a href="">Career</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Site map</a></li>
+              <li><a href="">Team</a></li>
+            </ul>
+          </div>
+          <div class="column3">
+            <h1>About Us</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut veniam nam libero, nisi ad
+              consequuntur.
+              Deleniti nihil id ex officia!</p>
+          </div>
+          <div class="column4">
+            <img src="#" alt="LOGO">
+            <ul>
+              <li>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_end">
+          <p>Copyright © 2021 All rights reserved</p>
+        </div>
+      </div>
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- External JavaScript -->
+        <script src="index.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <!-- Ionicons JavaScript -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
   </body>
-  </html>
+</html>
